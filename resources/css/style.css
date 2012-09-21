@@ -79,3 +79,8 @@ body:before, body:after {
 body:after {
   clear: both;
 }
+
+/* line 7, ../sass/style.scss */
+body {
+  background: red;
+}
