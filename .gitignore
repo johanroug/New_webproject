@@ -1,6 +1,8 @@
 #################
 ## Eclipse
 #################
+.sass-cache
+
 
 *.pydevproject
 .project
