@@ -1,0 +1,718 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"example"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"clear",
+				"clearContext"
+			],
+			[
+				"conte",
+				"clearContext"
+			],
+			[
+				"nu",
+				"numMobItems"
+			],
+			[
+				"dis",
+				"display	display: block"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"fla",
+				"flagPos"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"elm",
+				"elm"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"v",
+				"visibility	visibility: type"
+			],
+			[
+				"html",
+				"<html>${1001:$SELECTION}</html>"
+			],
+			[
+				"style",
+				"<style type=\"text/css\">${1001:$SELECTION}</style>"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"ar",
+				"arial"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"border-",
+				"border-radius2"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"j",
+				"javascript"
+			],
+			[
+				"co",
+				"color	color: rgb"
+			],
+			[
+				"backg",
+				"background	background-color: transparent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2670,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"fe",
+				"Fetch"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: HTML5-startup"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Enable Package"
+			],
+			[
+				"packe",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Fetch"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"f",
+				"Fetch"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Nettuts+ Fetch/Default.sublime-commands",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/jro/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/S34AC33Q/ekstra.less",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/twigkit-semantic.gs-22e0e79/examples/fluid/fluid.scss",
+		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
+		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/twigkit-semantic.gs-22e0e79/stylesheets/demo.css",
+		"/C/Users/jro/test/index.html",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
+		"/C/Users/jro/Documents/GitHub/New_webproject/Resources/css/style.css",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/HTML5-startup.sublime-snippet",
+		"/C/Users/jro/Documents/GitHub/New_webproject/Resources/config.rb",
+		"/D/Solutions/AAU/index.html",
+		"/D/Solutions/AAU/Resources/config.rb",
+		"/D/Solutions/AAL/Resources/sass/style.scss",
+		"/D/Solutions/AAL/Resources/css/style.css",
+		"/D/Solutions/AAL/sass/style.scss",
+		"/D/Solutions/AAL/Resources/config.rb",
+		"/D/Solutions/AAL/config.rb",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/case-special-handling.less",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/case-bg.less",
+		"/D/Solutions/umb49/config.rb",
+		"/D/Solutions/umb49/masterpages/umbMaster.master",
+		"/D/Solutions/umb49/css/Starterkit.css",
+		"/D/Solutions/umb49/sass/Starterkit.scss",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/Cases/case-PHM.less",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/Cases/case-KAD - Copy.less",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/Cases/case-AU.less",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/Cases/case-AU - Copy.less",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Content/Styles/1508.less",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Scripts/Cases/Imagesloaded.js",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/Scripts/Cases/Script.js",
+		"/C/Users/jro/Desktop/Scripts/Scripts/Cases/script.js",
+		"/D/Solutions/umb49/css/Starterkit.scss",
+		"/D/Solutions/1508.dk/FemtenNulOtte/FemtenNulOtte.Website/_DEV/web.config",
+		"/D/Solutions/umb49/css/starterkit.scss",
+		"/D/Solutions/umb49/css/Designit_Green.css",
+		"/C/Users/jro/Downloads/jbrewer-Responsive-Measure-206f556/jbrewer-Responsive-Measure-206f556/jquery.rm.js",
+		"/C/Users/jro/Downloads/jbrewer-Responsive-Measure-206f556/jbrewer-Responsive-Measure-206f556/examples/ethan_responsive_rhythm.html",
+		"/C/Users/jro/Dropbox/Umbraco XSLT tips.htm",
+		"/C/Users/jro/Downloads/jbrewer-Responsive-Measure-206f556/jbrewer-Responsive-Measure-206f556/examples/resolution-independent-typography.html",
+		"/D/Solutions/umb49/scripts/jquery.rm.js",
+		"//nas1/install/Hedgehog Team Development for Sitecore/2011-09 THJ Order request.htm",
+		"/D/Solutions/1508.dk/FemtenNulOtte/Sitecore.Master/Sitecore.Master.scproj",
+		"/C/Users/jro/Desktop/Bopæls Attest03.htm",
+		"/C/Users/jro/Desktop/Bopæls Attest04.htm",
+		"/C/Users/jro/Desktop/Bopæls Attest02.htm",
+		"/C/Users/jro/Desktop/Bopæls Attest01_files/screen.less",
+		"/C/Users/jro/Desktop/Bopæls Attest01.htm",
+		"/C/Users/jro/Desktop/Bopæls Attest01_files/forms.css",
+		"/C/Users/jro/Dropbox/frontend/Scripts/script.js",
+		"/C/Users/jro/Desktop/Bopæls Attest02_files/screen.less",
+		"/C/Users/jro/Desktop/test.css",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/base.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/Otometrics.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/scripts/selectbox-with-local-changes.js",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/scripts/script.js",
+		"/C/Users/jro/Dropbox/jquery plugins/choose link in dropdown menu and redirect to that page.js",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/Beltone.less",
+		"/D/ALECTIA/Html/css/base.less",
+		"/D/ALECTIA/Html/css/style.less",
+		"/D/ALECTIA/Html/css/style.css",
+		"/C/Users/jro/Desktop/New Book.htm",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/Interton.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/AudiologySystems.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/styles.less",
+		"/D/Solutions/SPL 686/Vidensbank/src/SPL.Web/Web.config",
+		"//dev3/Solutions/SPL 686/Vidensbank/Utilities/Copy DB.cmd",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/resound.less",
+		"/C/Users/jro/Downloads/joehewitt-scrollability-v0.0.3-0-gfed4b02/joehewitt-scrollability-fed4b02/static/examples/pages.html",
+		"/C/Users/jro/Downloads/joehewitt-scrollability-v0.0.3-0-gfed4b02/joehewitt-scrollability-fed4b02/scrollability.js",
+		"/C/Users/jro/Downloads/joehewitt-scrollability-v0.0.3-0-gfed4b02/joehewitt-scrollability-fed4b02/static/scrollbar.css",
+		"/D/Solutions/NMI682.0522/nordisk/less/responsive-navbar.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/layouts/Main.aspx",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/App_Data/serialization/master/sitecore/templates/Components/DownloadLibrary/Data/DownloadLibraryMetaData/MetaData/DownloadLibrary_ProductSelector.item",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/scripts/jquery.infieldlabel.min.js",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/scripts/jquery.flexslider.js",
+		"/C/Users/jro/Downloads/hakimel-stroll.js-v1.0-8-g0eb77b3/hakimel-stroll.js-0eb77b3/index.html",
+		"/C/Users/jro/Downloads/hakimel-stroll.js-v1.0-8-g0eb77b3/hakimel-stroll.js-0eb77b3/css/example.css",
+		"/C/Users/jro/Downloads/hakimel-stroll.js-v1.0-8-g0eb77b3/hakimel-stroll.js-0eb77b3/css/stroll.css",
+		"/D/Solutions/NMI682.0522/nordisk/js/nordic-navigation.js",
+		"/D/Solutions/NMI682.0522/nordisk/index.html",
+		"/D/Solutions/NMI682.0522/nordisk/js/nordic.js",
+		"/C/Users/jro/Downloads/woothemes-FlexSlider-24dcdf3/woothemes-FlexSlider-24dcdf3/jquery.flexslider.js",
+		"/C/Users/jro/Desktop/bootstrap/responsive.less",
+		"/C/Users/jro/Desktop/test",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/Resound-campaign-Verso.less",
+		"/C/Users/jro/Documents/My Web Sites/Umbraco CMS 5/Areas/Umbraco/Content/Styles/Site.css",
+		"/D/Solutions/GDA 1235/gyldendal-akademisk.dk/src/GDA.Web/default.css",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/gridsystem.xlsx",
+		"/C/Users/jro/Desktop/CBS/index.html",
+		"/D/Solutions/AOC/Website/css/all.css",
+		"/D/Solutions/AOC/Website/scripts/modernizr.custom.68157.js",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Twitter Bootstrap Snippets/Scaffolding/grid-two.sublime-snippet",
+		"/C/Users/jro/Desktop/Beltone/Indholdsside/Mørk top/Index-filer/Beltone.css",
+		"/C/Users/jro/Dropbox/jquery plugins/Clear div - responsive.js",
+		"/C/Users/jro/Downloads/woothemes-FlexSlider-1c04c41/woothemes-FlexSlider-1c04c41/demo.html",
+		"/C/Users/jro/Downloads/woothemes-FlexSlider-1c04c41/woothemes-FlexSlider-1c04c41/jquery.flexslider.js",
+		"/C/Users/jro/Desktop/scipt.js",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/sitecore modules/Shell/Web Forms for Marketers/Themes/Default.css",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/small.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/normal.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/medium.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/large.less",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/medium.css",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/small.css",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/normal.css",
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/large.css",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widget.sublime-settings",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme.cache",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark.sublime-theme",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Light.sublime-theme",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark/Widget - Soda Dark.stTheme",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark/Widget - Soda Dark.sublime-settings",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Twilight.tmTheme",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Tortoise/Default (Windows).sublime-keymap",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Dawn.tmTheme",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Tortoise/Tortoise.sublime-settings",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Solutions/1508.dk/FemtenNulOtte.Website/Content/Styles/style-alpha.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			".spot:nth-of-type",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}}",
+			"html",
+			"body",
+			"DateTime",
+			"FormatDateTime",
+			"dd",
+			"dd-",
+			"dato",
+			"date",
+			"input",
+			"steps",
+			"submi",
+			".selfService",
+			"less",
+			"resour",
+			"resou",
+			"campaignLanguag",
+			"campaignLanguage",
+			"sitecoreTabLoader",
+			"tabs",
+			"filterLink",
+			"tabsGrid",
+			"campaignLanguage",
+			"filterLink",
+			"campaignLanguage",
+			"flagDropdownmenu",
+			".spot",
+			"h1",
+			"down",
+			"download",
+			"dispen",
+			"productsp",
+			"flexsli",
+			"h1",
+			"lessCallToAction",
+			"bodybg.png",
+			"download",
+			".bodyContent",
+			"h1",
+			"009099",
+			"005491",
+			"proto",
+			"0cbbd0",
+			"download",
+			".download",
+			"download",
+			"color02",
+			"h1",
+			".element",
+			"btn1",
+			".element",
+			"element",
+			"btn1",
+			"downlo",
+			".btn",
+			"slides",
+			"btn3",
+			"dropdo",
+			"btn4",
+			"selectbo",
+			"searchToggle",
+			".link",
+			"load",
+			"media",
+			"brow",
+			"touchmenu",
+			"resi",
+			".box",
+			"context",
+			".flex-direction-nav",
+			".flex-control-nav",
+			"style",
+			"this",
+			"hideNATabsElm",
+			"hideNATabsElm ",
+			"clearContext",
+			"hideNATabsElm",
+			"aList",
+			"hideNATabsElm",
+			"clearContext",
+			"hideNATabsElm",
+			"clearContext",
+			"imageGallery",
+			"sitecoreTabLoader",
+			"hideNATabsElm",
+			"sitecoreTabLoader",
+			"hideNATabsElm",
+			"sitecoreTabLoader",
+			"hideNATabsElm",
+			"sitecoreTabLoader",
+			"hideNATabsElm",
+			"this",
+			"add",
+			"addthi",
+			"desktop",
+			"desktop\nmobile",
+			"desktop\ndesktop",
+			"desktop",
+			"sitecoreTabLoader",
+			"tab",
+			"clearContext",
+			"clearcon",
+			"load",
+			"clear",
+			"tabs",
+			"flex",
+			"tabsgrid",
+			"productmenu",
+			"hideNATabsElm",
+			"g33",
+			"share",
+			"alert",
+			"block",
+			"ashx",
+			"mobil-co",
+			"mobile-co",
+			"flags",
+			"30",
+			"flags",
+			"share",
+			"114",
+			"94",
+			"94px",
+			"mobil-c",
+			"topMenuWrapper",
+			"flagdr",
+			"share",
+			"quick"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"css",
+			"@color17",
+			"div:nth-of-type",
+			".spot:nth-child",
+			".spot:nth-of-type",
+			"color10",
+			"color04",
+			"8px",
+			"@color16",
+			"@color03"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/css/style.css",
+					"settings":
+					{
+						"buffer_size": 2670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 172.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"scr",
+				"scripts/script.js"
+			],
+			[
+				"scri",
+				"scripts/script.js"
+			],
+			[
+				"main",
+				"layouts/Main.aspx"
+			],
+			[
+				"dropdownmenu",
+				"App_Data/serialization/master/sitecore/templates/Components/DownloadLibrary/Data/DownloadLibraryMetaData/MetaData/DownloadLibrary_ProductSelector.item"
+			],
+			[
+				"otome",
+				"css/Otometrics.less"
+			],
+			[
+				"",
+				"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Solutions/TDC/TDC.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}
