@@ -127,7 +127,7 @@
 			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 109,
+				"buffer_size": 266,
 				"line_ending": "Windows"
 			}
 		},
@@ -135,7 +135,15 @@
 			"file": "resources/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2670,
+				"buffer_size": 3130,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/js/script.js",
+			"settings":
+			{
+				"buffer_size": 438,
 				"line_ending": "Windows"
 			}
 		}
@@ -264,6 +272,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Dropbox/frontend/Scripts/script.js",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_typografi.scss",
+		"/C/Users/jro/Downloads/webfontkit-20120921-151949/stylesheet.css",
+		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Nettuts+ Fetch/Default.sublime-commands",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
@@ -320,7 +332,6 @@
 		"/C/Users/jro/Desktop/Bopæls Attest01_files/screen.less",
 		"/C/Users/jro/Desktop/Bopæls Attest01.htm",
 		"/C/Users/jro/Desktop/Bopæls Attest01_files/forms.css",
-		"/C/Users/jro/Dropbox/frontend/Scripts/script.js",
 		"/C/Users/jro/Desktop/Bopæls Attest02_files/screen.less",
 		"/C/Users/jro/Desktop/test.css",
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/base.less",
@@ -388,10 +399,7 @@
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark/Widget - Soda Dark.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Twilight.tmTheme",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Tortoise/Default (Windows).sublime-keymap",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Dawn.tmTheme",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Tortoise/Tortoise.sublime-settings",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Solutions/1508.dk/FemtenNulOtte.Website/Content/Styles/style-alpha.css"
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Dawn.tmTheme"
 	],
 	"find":
 	{
@@ -412,6 +420,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"git",
 			"}}",
 			"html",
 			"body",
@@ -538,8 +547,7 @@
 			"mobil-c",
 			"topMenuWrapper",
 			"flagdr",
-			"share",
-			"quick"
+			"share"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -567,7 +575,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -575,15 +583,15 @@
 					"file": "resources/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 109,
+						"buffer_size": 266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								259,
+								259
 							]
 						],
 						"settings":
@@ -601,20 +609,48 @@
 					"file": "resources/css/style.css",
 					"settings":
 					{
-						"buffer_size": 2670,
+						"buffer_size": 3130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								3127,
+								3127
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2077.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/js/script.js",
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
