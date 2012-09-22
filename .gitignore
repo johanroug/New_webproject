@@ -3,7 +3,7 @@
 #################
 .sass-cache
 *.css
-
+*.txt
 
 *.pydevproject
 .project

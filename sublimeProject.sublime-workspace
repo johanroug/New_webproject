@@ -127,23 +127,7 @@
 			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 266,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/css/style.css",
-			"settings":
-			{
-				"buffer_size": 3130,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/js/script.js",
-			"settings":
-			{
-				"buffer_size": 438,
+				"buffer_size": 78,
 				"line_ending": "Windows"
 			}
 		}
@@ -272,10 +256,18 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_import.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_colors.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
+		"/C/Users/jro/Dropbox/frontend/Styles/style.less",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/import.scss",
+		"/C/Users/jro/Dropbox/frontend/Styles/base.less",
+		"/C/Users/jro/Dropbox/frontend/Styles/base.css",
 		"/C/Users/jro/Dropbox/frontend/Scripts/script.js",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_typografi.scss",
 		"/C/Users/jro/Downloads/webfontkit-20120921-151949/stylesheet.css",
-		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Nettuts+ Fetch/Default.sublime-commands",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
@@ -290,7 +282,6 @@
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/New_webproject/Resources/css/style.css",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/HTML5-startup.sublime-snippet",
 		"/C/Users/jro/Documents/GitHub/New_webproject/Resources/config.rb",
@@ -392,14 +383,7 @@
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/large.css",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widget.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme.cache",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark.sublime-theme",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Light.sublime-theme",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark/Widget - Soda Dark.stTheme",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark/Widget - Soda Dark.sublime-settings",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Twilight.tmTheme",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Tortoise/Default (Windows).sublime-keymap",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Dawn.tmTheme"
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme"
 	],
 	"find":
 	{
@@ -575,7 +559,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -583,74 +567,20 @@
 					"file": "resources/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 78,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								259,
-								259
+								35,
+								35
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/css/style.css",
-					"settings":
-					{
-						"buffer_size": 3130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3127,
-								3127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2077.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/js/script.js",
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -11,6 +11,11 @@
 		//Enable html5 elements in IE
 		'article aside footer header nav section time'.replace(/\w+/g,function(n){document.createElement(n)});
 	</script>
+	
+	<!-- Live reload af sider. Slet på produktion -->
+	<script>		
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></'+ 'script>')
+	</script>
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css" />	
