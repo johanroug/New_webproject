@@ -127,16 +127,48 @@
 			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 120,
+				"buffer_size": 79,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "resources/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 988,
+				"buffer_size": 405,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3426,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/compass_app_log.txt",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/_import.scss",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 2257,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -264,6 +296,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
 		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
@@ -292,7 +325,6 @@
 		"/C/Users/jro/test/index.html",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
-		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
 		"/C/Users/jro/Documents/GitHub/New_webproject/Resources/css/style.css",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/HTML5-startup.sublime-snippet",
 		"/C/Users/jro/Documents/GitHub/New_webproject/Resources/config.rb",
@@ -567,7 +599,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -575,15 +607,15 @@
 					"file": "resources/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 120,
+						"buffer_size": 79,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								79,
+								79
 							]
 						],
 						"settings":
@@ -598,24 +630,130 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "resources/sass/_layout.scss",
 					"settings":
 					{
-						"buffer_size": 988,
+						"buffer_size": 405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								577,
-								577
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/css/style.css",
+					"settings":
+					{
+						"buffer_size": 3426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3373,
+								3373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1901.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/compass_app_log.txt",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/sass/_import.scss",
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/sass/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 2257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,

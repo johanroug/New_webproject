@@ -1,0 +1,26 @@
+// Media queries 
+//-------------------------------------------
+// HOW TO USE-----------------------------
+// body {
+//   @include media(mobile) { 
+//    background: red;
+//   }
+// }
+@mixin media($point) {
+  @if $point == bigDis {
+    @media screen and (max-width: 13500px) { @content; }
+  }
+  @if $point == desktop {
+    @media screen and (max-width: 1250px) { @content; }
+  }
+  @if $point == tabletH {
+    @media screen and (max-width: 950px)  { @content; }
+  }
+  @if $point == tabletV {
+    @media screen and (max-width: 700px)  { @content; }
+  }
+  @else if $point == mobile {
+    @media screen and (max-width: 550px)  { @content; }
+  }
+
+}
