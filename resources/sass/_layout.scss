@@ -10,13 +10,13 @@ $tabletH:  	"screen and (max-width 950px)";
 
 $desktop:  	"screen and (max-width 1250px)";
 
-$bigDisplay:"screen and (max-width 1350px)";
+$bigDis:	"screen and (max-width 1350px)";
 
 
-/* How to use fx mobile
-body{ 
-  @media #{$mobile}{
-  	background: red;	
-  } 
-} */
+//How to use fx mobile
+//	body{ 
+//  	@media #{$mobile}{
+//			background: red;	
+//  	} 
+//	}
 
