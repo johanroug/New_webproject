@@ -5,8 +5,3 @@
 ------------------------------------- */
 
 
-body{ //Eksempel på inline media query
-  @media #{$mobile}{
-  	background: red;	
-  } 
-}
