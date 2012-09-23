@@ -127,7 +127,15 @@
 			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 78,
+				"buffer_size": 120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 988,
 				"line_ending": "Windows"
 			}
 		}
@@ -256,10 +264,13 @@
 	},
 	"file_history":
 	[
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_import.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_colors.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/compass_app_log.txt",
+		"/C/Users/jro/Documents/GitHub/test/config.rb",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_import.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_colors.scss",
 		"/C/Users/jro/Dropbox/frontend/Styles/style.less",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/import.scss",
@@ -380,10 +391,7 @@
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/medium.css",
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/small.css",
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/normal.css",
-		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/large.css",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widget.sublime-settings",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme.cache",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme"
+		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/large.css"
 	],
 	"find":
 	{
@@ -567,20 +575,48 @@
 					"file": "resources/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 78,
+						"buffer_size": 120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								103,
+								103
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

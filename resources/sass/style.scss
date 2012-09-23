@@ -4,7 +4,9 @@
 /* Website
 ------------------------------------- */
 
-body{
-	background: blue;
-	float: left;
+
+body{ //Eksempel på inline media query
+  @media #{$mobile}{
+  	background: red;	
+  } 
 }
