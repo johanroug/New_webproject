@@ -1,12 +1,12 @@
-/* import compass 
-------------------------------------- */
+// import compass 
+//------------------------------------- 
 @import "compass/reset";
 @import "compass/css3";
 
 
-/* Import stylesheets
-------------------------------------- */
-@import "_placeholders.scss";	//Used for grupped classes
+// Import stylesheets
+//-------------------------------------
 @import "_layout.scss";
 @import "_typografi.scss";
 @import "_colors.scss";
+@import "_placeholders.scss";	//Used for grupped classes

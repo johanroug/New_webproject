@@ -1,11 +1,10 @@
 // Media queries 
 //-------------------------------------------
-// HOW TO USE-----------------------------
-// body {
-//   @include media(mobile) { 
-//    background: red;
-//   }
+// body { 
+//   @include media(mobile) { background: red;}
 // }
+//-------------------------------------------
+
 @mixin media($point) {
   @if $point == bigDis {
     @media screen and (max-width: 13500px) { @content; }

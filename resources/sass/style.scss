@@ -4,7 +4,12 @@
 /* Website
 ------------------------------------- */
 
-
+body{
+  @extend %clearfix;
+}
+.head{
+  @extend %clearfix;
+}
 
 
 
