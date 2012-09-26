@@ -123,6 +123,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/css/style.css",
+			"settings":
+			{
+				"buffer_size": 5922,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 990,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"command_palette":
@@ -252,6 +276,8 @@
 	},
 	"file_history":
 	[
+		"/D/Solutions/AAU/resources/sass/_base.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/resources/sass/style.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/style.scss",
@@ -268,7 +294,6 @@
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_colors.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries",
@@ -378,8 +403,7 @@
 		"/C/Users/jro/Desktop/CBS/index.html",
 		"/D/Solutions/AOC/Website/css/all.css",
 		"/D/Solutions/AOC/Website/scripts/modernizr.custom.68157.js",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Twitter Bootstrap Snippets/Scaffolding/grid-two.sublime-snippet",
-		"/C/Users/jro/Desktop/Beltone/Indholdsside/Mørk top/Index-filer/Beltone.css"
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Twitter Bootstrap Snippets/Scaffolding/grid-two.sublime-snippet"
 	],
 	"find":
 	{
@@ -400,6 +424,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"eksem",
 			"head",
 			"clearf",
 			"git",
@@ -526,8 +551,7 @@
 			"114",
 			"94",
 			"94px",
-			"mobil-c",
-			"topMenuWrapper"
+			"mobil-c"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -557,6 +581,88 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/css/style.css",
+					"settings":
+					{
+						"buffer_size": 5922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
