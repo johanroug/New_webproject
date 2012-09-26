@@ -1,5 +1,5 @@
-	
+@import "compass/css3/font-face";
 
 /* font
 ------------------------------------- */ 
-@include font-face("Blooming Grove", font-files("fonts/bgrove.eot", "fonts/bgrove.woff", "fonts/bgrove.ttf","fonts/bgrove.svg"));
+@include font-face("fontName", font-files("fontName_bd.woff", "fontName_bd.ttf"), "fontName_bd.eot", bold);	

@@ -1,2 +1,50 @@
 /* Colors
 ------------------------------------- */
+/* Provides extra visual weight and identifies the primary action in a set of buttons.
+
+    <div class="sd-color sd-colorlight"></div>
+    <div class="sd-color sd-blue"></div>
+    <div class="sd-color sd-darkBlue"></div>
+    <div class="sd-color sd-lightGrey"></div>
+    <div class="sd-color sd-grey"></div>
+    <div class="sd-color sd-medGrey"></div>
+    <div class="sd-color sd-darkGrey"></div>
+*/
+$light: #fff;
+$blue: #594fbf;
+$darkBlue: #211a52;
+$lightGrey: #dfdfe3;
+$grey: #a2acb6;
+$medGrey: #6a7783;
+$darkGrey: #54616e;
+
+
+// test for styledocco
+.sd-color{
+	height: 50px;
+	float: left;
+	margin: 10px 0;
+	width: 20%;
+	&:after{color: #000;}
+}
+.sd-colorlight{background: $light;
+	&:after{content:"$light";}
+}
+.sd-blue{background: $blue;
+	&:after{content:"$blue";}
+}
+.sd-darkBlue{background: $darkBlue;
+	&:after{content:"$darkBlue";}
+}
+.sd-lightGrey{background: $lightGrey;
+	&:after{content:"$lightGrey";}
+}
+.sd-grey{background: $grey;
+	&:after{content:"$grey";}
+}
+.sd-medGrey{background: $medGrey;
+	&:after{content:"$medGrey";}
+}
+.sd-darkGrey{background: $darkGrey;
+	&:after{content:"$darkGrey";}
+}

@@ -3,15 +3,12 @@
 
 /* Website
 ------------------------------------- */
-
-body{
-  @extend %clearfix;
-}
-.head{
-  @extend %clearfix;
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 
-
-
-
+.eksempel{ //eksempel på brug af sprite
+	@include my-icons-sprite(spr-link_active);
+}
