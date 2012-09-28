@@ -127,7 +127,7 @@
 			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 214,
+				"buffer_size": 620,
 				"line_ending": "Windows"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "resources/css/style.css",
 			"settings":
 			{
-				"buffer_size": 5922,
+				"buffer_size": 9526,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 990,
+				"buffer_size": 1995,
 				"line_ending": "Windows"
 			}
 		}
@@ -276,6 +276,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
 		"/D/Solutions/AAU/resources/sass/_base.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
@@ -292,10 +295,7 @@
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_typografi.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_placeholders.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_colors.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/_placeholders.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/compass_app_log.txt",
@@ -411,7 +411,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 120.0,
 		"where_history":
 		[
 			"",
@@ -579,6 +579,7 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -586,23 +587,24 @@
 					"file": "resources/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 214,
+						"buffer_size": 620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								620,
+								215
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 152.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -612,7 +614,7 @@
 					"file": "resources/css/style.css",
 					"settings":
 					{
-						"buffer_size": 5922,
+						"buffer_size": 9526,
 						"regions":
 						{
 						},
@@ -640,15 +642,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 990,
+						"buffer_size": 1995,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								577,
-								577
+								625,
+								625
 							]
 						],
 						"settings":
@@ -658,7 +660,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 290.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

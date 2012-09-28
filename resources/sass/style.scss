@@ -12,3 +12,23 @@ html {
 .eksempel{ //eksempel på brug af sprite
 	@include my-icons-sprite(spr-contact);
 }
+
+@mixin tri($width, $dir, $color){
+	@if $dir == up{
+		width: 0;
+		height: 0;
+		border-left: $width solid transparent;
+		border-right: $width solid transparent;
+		border-bottom: $width solid red;
+	}@else if $dir == down{
+		width: 0;
+		height: 0;
+		border-left: $width solid transparent;
+		border-right: $width solid transparent;
+		border-top: $width solid red;
+	}
+}
+
+.test2{
+	@include tri(100px, up, red);
+}
