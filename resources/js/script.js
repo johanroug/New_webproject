@@ -8,36 +8,40 @@
 	//Window resize
 	$(window).resize(function () {
 		clearContext(); //add clear class after elements
+		cleargrid();
 	});
   
 	//Window load
 	$(window).load(function (){
     	clearContext(); //add clear class after elements
-
-
-
-    	/*var grid = $('.grid');
-    	var wrapper = $('.wrapper').width();
-
-		$(grid).each(function () {
-			var gridWidth = $(this).width();
-			var percentage = (gridWidth / wrapper)*100;
-			
-			
-			console.log(percentage);
-	    });*/
-
-
+    	cleargrid();
 	});	
 
 	//****************************************************************************************************************
     //Functions
 	//****************************************************************************************************************
 	
-	
+	//Clear grid
+	function cleargrid(){
+		var percentage = 0;
+	    var total = 0;
+	    $('.cleargrid').remove();
+	    $(".grid").each(function () {
+	        percentage =($(this).width() / $(".wrapper").width()) * 100;
+	        total = total + percentage;	        
+	        if (total <= 101 && total > 90) {
+	            if($(this).parent('ul')){
+					$(this).after('<li class="clear cleargrid"></li>');
+				}else{
+					$(this).after('<div class="clear cleargrid"></div>');
+				}		            
+	            total = 0;
+	        }
+	    });	
+	}
 	//Add line break selectors
 	function clearContext(){
-		$('.grid').addLineBreak();		
+		$('.test').addLineBreak();		
 	}
 	// ADD LINE BREAK
 	//Plugin
@@ -46,7 +50,6 @@
 			var $this = this,
 				minLeft = 0;
 			if (!this.length == 0){
-				console.log('1');
 				//clear
 				$('.lineBrk').remove();
 
@@ -59,7 +62,6 @@
 					if (position.left > minLeft &&
 						$elm.prev().position().left >= position.left
 					) {	
-						console.log('3');
 						if($elm.parent('ul')){
 							$elm.before('<li class="clear lineBrk"></li>');
 						}else{

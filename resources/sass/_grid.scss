@@ -3,7 +3,7 @@
 /////////////////
 
 // Defaults which you can freely override
-$column-width: 81;
+$column-width: 81px;
 $columns: 12;
 $gutter: 6;
 
@@ -14,7 +14,7 @@ $gutter: 6;
 
 // Set $total-width to 100% for a fluid layout
 // $total-width: gridsystem-width($columns);
-$total-width: 100%;
+$total-width: 100%; 
 
 
 .grid + .grid > .context{
