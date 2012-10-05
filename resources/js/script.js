@@ -13,6 +13,21 @@
 	//Window load
 	$(window).load(function (){
     	clearContext(); //add clear class after elements
+
+
+
+    	/*var grid = $('.grid');
+    	var wrapper = $('.wrapper').width();
+
+		$(grid).each(function () {
+			var gridWidth = $(this).width();
+			var percentage = (gridWidth / wrapper)*100;
+			
+			
+			console.log(percentage);
+	    });*/
+
+
 	});	
 
 	//****************************************************************************************************************
@@ -22,7 +37,7 @@
 	
 	//Add line break selectors
 	function clearContext(){
-		$('.spotCon').addLineBreak();		
+		$('.grid').addLineBreak();		
 	}
 	// ADD LINE BREAK
 	//Plugin
@@ -31,8 +46,9 @@
 			var $this = this,
 				minLeft = 0;
 			if (!this.length == 0){
+				console.log('1');
 				//clear
-				$('lineBrk').remove();
+				$('.lineBrk').remove();
 
 				minLeft = $this.first().position().left;
 				
@@ -43,6 +59,7 @@
 					if (position.left > minLeft &&
 						$elm.prev().position().left >= position.left
 					) {	
+						console.log('3');
 						if($elm.parent('ul')){
 							$elm.before('<li class="clear lineBrk"></li>');
 						}else{

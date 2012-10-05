@@ -124,42 +124,42 @@
 	"buffers":
 	[
 		{
-			"file": "resources/sass/style.scss",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 2167,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 13150,
-				"line_ending": "Unix"
+				"buffer_size": 137,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "resources/css/style.css",
 			"settings":
 			{
-				"buffer_size": 8578,
+				"buffer_size": 8550,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/js/script.js",
+			"file": "resources/sass/_grid.scss",
 			"settings":
 			{
-				"buffer_size": 1266,
-				"line_ending": "Windows"
+				"buffer_size": 953,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "resources/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 2076,
+				"buffer_size": 1769,
 				"line_ending": "Windows"
 			}
 		}
@@ -292,12 +292,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
+		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/compass_app_log.txt",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
 		"/D/Solutions/AAU/resources/sass/_base.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/resources/sass/style.scss",
@@ -313,7 +316,6 @@
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_typografi.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_placeholders.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_colors.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/_placeholders.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
@@ -328,7 +330,6 @@
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Nettuts+ Fetch/Default.sublime-commands",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/jro/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/S34AC33Q/ekstra.less",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/twigkit-semantic.gs-22e0e79/examples/fluid/fluid.scss",
 		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss",
@@ -418,12 +419,11 @@
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/gridsystem.xlsx",
 		"/C/Users/jro/Desktop/CBS/index.html",
 		"/D/Solutions/AOC/Website/css/all.css",
-		"/D/Solutions/AOC/Website/scripts/modernizr.custom.68157.js",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Twitter Bootstrap Snippets/Scaffolding/grid-two.sublime-snippet"
+		"/D/Solutions/AOC/Website/scripts/modernizr.custom.68157.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -440,6 +440,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"g4",
+			"$column-width",
+			"spotCon",
+			"row",
+			"gutt",
+			"gutter-width",
 			"eksem",
 			"head",
 			"clearf",
@@ -561,13 +567,7 @@
 			"mobil-co",
 			"mobile-co",
 			"flags",
-			"30",
-			"flags",
-			"share",
-			"114",
-			"94",
-			"94px",
-			"mobil-c"
+			"30"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -595,23 +595,51 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/sass/style.scss",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 2167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								228,
-								228
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 781.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
 							]
 						],
 						"settings":
@@ -626,47 +654,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 13150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10900,
-								10900
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7202.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
 					"file": "resources/css/style.css",
 					"settings":
 					{
-						"buffer_size": 8578,
+						"buffer_size": 8550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5411,
+								5413
 							]
 						],
 						"settings":
@@ -676,62 +676,60 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10114.0,
+						"translation.y": 5927.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "resources/js/script.js",
+					"file": "resources/sass/_grid.scss",
 					"settings":
 					{
-						"buffer_size": 1266,
+						"buffer_size": 953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								0,
+								953
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 26.0,
+						"translation.y": 93.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "index.html",
+					"file": "resources/sass/_layout.scss",
 					"settings":
 					{
-						"buffer_size": 2076,
+						"buffer_size": 1769,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1877,
-								1877
+								1769,
+								1769
 							]
 						],
 						"settings":
 						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1964.0,
+						"translation.y": 2542.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -827,6 +825,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true
 }

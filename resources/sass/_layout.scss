@@ -6,85 +6,85 @@ html, body {
 	padding: 0;
 	margin: 0;
 }
-.clear{
+.clear {
 	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100% !important;
 }
 .wrapper{
 	@extend %clearfix;
 	margin: 0 auto;
-	padding: 0 3px;
 	position: relative;
-	max-width: 972px;
+	max-width: 965px; //burde være 972
 	z-index: 2;
+	.ie7 &{
+		max-width: 972px;
+	}
 }
 #root{
 	z-index: 2;
 }
 %inner{
-	margin: 0 3px 6px;
+	margin: 0 0 6px;
+}
+%padding{
+	padding: 20px;
 }
 .context{
 	background: #fff;
 	@extend %inner;
-	padding: 20px;
+	@extend %padding;
 }
 .spot{
 	display: inline;	
 	float: left;
 	width: 100%;
 }
+img{
+	max-width: 100%;
+}
 
 /* Layout
 ------------------------------------- */ 
 /* There are 5 layouts sizes
-
-	<div class="spotCon g4">
-		<div class="spot">
-			<div class="context">g4</div>
+	<div class="section">
+		<div class="spotCon grid g4">
+			<div class="context"></div>
+		</div>
+		<div class="spotCon grid g4">
+			<div class="context"></div>
+		</div>
+		<div class="spotCon grid g4">
+			<div class="context"></div>
 		</div>
 	</div>
-	<div class="spotCon g4">
-		<div class="spot">
-			<div class="context">g4</div>
+	<div class="section">
+		<div class="spotCon grid g6">
+			<div class="context"></div>
 		</div>
-	</div>
-	<div class="spotCon g4">
-		<div class="spot">
-			<div class="context">g4</div>
+		<div class="spotCon grid g3">
+			<div class="context"></div>
 		</div>
-	</div>
-	<div class="spotCon g6">
-		<div class="spot">
-			<div class="context">g6</div>
-		</div>
-	</div>
-	<div class="spotCon g3">
-		<div class="spot">
-			<div class="context">g3</div>
-		</div>
-	</div>
-	<div class="spotCon g3">
-		<div class="spot">
-			<div class="context">g3</div>
-		</div>
-	</div>
-	<div class="spotCon g4">
-		<div class="spot">
-			<div class="context">g4</div>
-		</div>
-	</div>
-	<div class="spotCon g8">
-		<div class="spot">
-			<div class="context">g8</div>
+		<div class="spotCon grid g3">
+			<div class="context"></div>
 		</div>
 	</div>								
-	<div class="spotCon g12">
-		<div class="spot">
-			<div class="context">g12</div>
+	<div class="section">
+		<div class="spotCon grid g4">
+			<div class="context"></div>
 		</div>
+		<div class="spotCon grid g8">
+			<div class="context"></div>
+		</div>								
+	</div>								
+	<div class="spotCon section">
+		<div class="context"></div>
 	</div>
 */
-.g12{
+.g12, .section{
 	@include column(12); // 1
 }
 .g8{
@@ -111,6 +111,11 @@ html, body {
 .g8, .g6, .g4, .g3{
 	@include media(mobile){
 		width: 100%;	
+	}
+}
+.context{
+	@include media(mobile){
+		margin-left: 0 !important;
 	}
 }
 
