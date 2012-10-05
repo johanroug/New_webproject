@@ -108,6 +108,7 @@ img{
 		width: 50%;	
 	}
 }
+
 .g8, .g6, .g4, .g3{
 	@include media(mobile){
 		width: 100%;	
@@ -121,3 +122,9 @@ img{
 
 
 
+.g2{
+	@include column(2,4); // 1/4
+	@include media(tabletV){
+		width: 50%;	
+	}
+}
