@@ -127,15 +127,31 @@
 			"file": "resources/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 620,
+				"buffer_size": 231,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 13150,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "resources/css/style.css",
 			"settings":
 			{
-				"buffer_size": 9526,
+				"buffer_size": 8578,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/js/script.js",
+			"settings":
+			{
+				"buffer_size": 1266,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1995,
+				"buffer_size": 2076,
 				"line_ending": "Windows"
 			}
 		}
@@ -154,6 +170,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
 			[
 				"sc",
 				"Set Syntax: SCSS"
@@ -219,10 +239,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"css",
-				"Set Syntax: CSS"
-			],
-			[
 				"packa",
 				"Package Control: Install Package"
 			],
@@ -276,12 +292,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/compass_app_log.txt",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
 		"/D/Solutions/AAU/resources/sass/_base.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/resources/sass/style.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/style.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/resources/sass/_import.scss",
@@ -298,8 +316,6 @@
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/_placeholders.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/compass_app_log.txt",
-		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
 		"/C/Users/jro/Documents/GitHub/New_webproject/.gitignore",
 		"/C/Users/jro/Documents/GitHub/test/config.rb",
 		"/C/Users/jro/Dropbox/frontend/Styles/style.less",
@@ -411,7 +427,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 120.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -579,7 +595,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -587,15 +603,15 @@
 					"file": "resources/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 620,
+						"buffer_size": 231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								620,
-								215
+								228,
+								228
 							]
 						],
 						"settings":
@@ -604,17 +620,45 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 152.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 13150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10900,
+								10900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7202.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "resources/css/style.css",
 					"settings":
 					{
-						"buffer_size": 9526,
+						"buffer_size": 8578,
 						"regions":
 						{
 						},
@@ -632,25 +676,52 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 10114.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "index.html",
+					"buffer": 3,
+					"file": "resources/js/script.js",
 					"settings":
 					{
-						"buffer_size": 1995,
+						"buffer_size": 1266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								625,
-								625
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 26.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1877,
+								1877
 							]
 						],
 						"settings":
@@ -660,7 +731,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 290.0,
+						"translation.y": 1964.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -747,7 +818,7 @@
 		[
 			[
 				"",
-				"/D/Solutions/AAU/sublimeProject.sublime-project"
+				"/D/Solutions/000AAU/AAU.sublime-project"
 			]
 		],
 		"width": 380.0

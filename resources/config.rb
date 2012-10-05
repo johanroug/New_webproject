@@ -13,6 +13,9 @@ javascripts_dir = "js"
 # To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true
 
+#Change number of decimals on calculations
+Sass::Script::Number.precision = 14
+
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
 
@@ -23,7 +26,7 @@ relative_assets = true
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
 line_comments = true # by Compass.app 
-sass_options = {:debug_info=>false} # by Compass.app 
-
 
 output_style = :expanded # by Compass.app 
+
+sass_options = {:debug_info=>false} # by Compass.app 
