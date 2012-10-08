@@ -5,43 +5,64 @@
 // Defaults which you can freely override
 $column-width: 81px;
 $columns: 12;
-$gutter: 6;
+
+// Used for grid width left margin
+// $gutter: 10px;
 
 // Utility function — you should never need to modify this
 @function gridsystem-width($columns:$columns) {
 	@return ($column-width * $columns);
 }
 
+// .grid + .grid > .context{
+// 	margin-left: $gutter;
+// }
+
+// @each $i in $columns {
+//   .g#{$i}{
+//   	> .grid:first-child, + .grid{
+//      	> .context{
+//      		margin-left: 0;
+//      	}
+//      }
+//   }
+// }
+
 // Set $total-width to 100% for a fluid layout
-// $total-width: gridsystem-width($columns);
-$total-width: 100%; 
-
-
-.grid + .grid > .context{
-	margin-left: $gutter+px;
-}
-
-@each $i in $columns {
-  .g#{$i}{
-  	> .grid:first-child, + .grid{
-     	> .context{
-     		margin-left: 0;
-     	}
-     }
-  }
-}
+/* $total-width: gridsystem-width($columns); */
+$total-width: 100%;
 
 // Uncomment these two lines and the star-hack width/margin lines below to enable sub-pixel fix for IE6 & 7. See http://tylertate.com/blog/2012/01/05/subpixel-rounding.html
 $min-width: 999999;
 $correction: 0.5 / $min-width * 100;
 
+// The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack/
+@mixin clearfix() {
+	*zoom:1;
+
+	&:before,
+	&:after {
+	    content:"";
+	    display:table;
+	}
+	&:after {
+	    clear:both;
+	}
+}
+
+
+//////////
+// GRID //
+//////////
+
 body {
-	width: 100%;	
-	@extend %clearfix;
+	width: 100%;
+	@include clearfix();
 }
 
 @mixin column($x,$columns:$columns) {
 	display: inline;
 	float: left;
-	width: $total-width*(((($column-width)*$x)) / gridsystem-width($columns));	
+	width: $total-width*((($column-width)*$x) / gridsystem-width($columns));
+	*width: $total-width*(((($column-width)*$x)) / gridsystem-width($columns))-$correction;
 }
