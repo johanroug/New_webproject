@@ -18,17 +18,17 @@ html, body {
 	@extend %clearfix;
 	margin: 0 auto;
 	position: relative;
-	max-width: 972px; //burde være 972
+	max-width: 960px; 
 	z-index: 2;
 	.ie7 &{
-		
+		width: 960px;
 	}
 }
 #root{
 	z-index: 2;
 }
 %inner{
-	margin: 0 3px 6px;
+	margin: 0 5px 10px;
 }
 %padding{
 	padding: 20px;
@@ -37,11 +37,6 @@ html, body {
 	background: #fff;
 	@extend %inner;
 	@extend %padding;
-}
-.spot{
-	display: inline;	
-	float: left;
-	width: 100%;
 }
 img{
 	max-width: 100%;
@@ -114,13 +109,6 @@ img{
 		@include column(12);	
 	}
 }
-.context{
-	@include media(mobile){
-		margin-left: 0 !important;
-	}
-}
-
-
 
 .g2{
 	@include column(2,4); // 1/4
