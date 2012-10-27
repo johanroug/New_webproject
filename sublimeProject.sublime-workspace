@@ -147,7 +147,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1859,
+				"buffer_size": 1972,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,7 +155,15 @@
 			"file": "resources/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 1868,
+				"buffer_size": 1989,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 1067,
 				"line_ending": "Windows"
 			}
 		}
@@ -423,9 +431,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 120.0,
 		"where_history":
 		[
+			"*.scss",
 			"",
 			".spot:nth-of-type",
 			""
@@ -591,7 +600,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -616,7 +625,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 84.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -626,15 +635,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1859,
+						"buffer_size": 1972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								914,
-								913
+								905,
+								905
 							]
 						],
 						"settings":
@@ -644,7 +653,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 393.0,
+						"translation.y": 688.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -654,15 +663,15 @@
 					"file": "resources/sass/_layout.scss",
 					"settings":
 					{
-						"buffer_size": 1868,
+						"buffer_size": 1989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1812,
-								1811
+								445,
+								445
 							]
 						],
 						"settings":
@@ -671,7 +680,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2436.0,
+						"translation.y": 280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/sass/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 1067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
