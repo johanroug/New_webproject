@@ -4,6 +4,8 @@
 .sass-cache
 *.css
 *.txt
+*.sublime-project
+*.sublime-workspace
 
 *.pydevproject
 .project
