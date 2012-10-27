@@ -9,6 +9,7 @@ $columns: 12;
 	@return ($column-width * $columns);
 }
 
+// Used for grid width left margin
 // .grid + .grid > .context{
 // 	margin-left: $gutter;
 // }

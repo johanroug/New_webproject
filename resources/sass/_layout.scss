@@ -27,9 +27,12 @@ html, body {
 #root{
 	z-index: 2;
 }
-%inner{
+%inner{ //used for margin both sides. Uncomment if margin left is used
 	margin: 0 5px 10px;
 }
+/* %inner{ //used for margin left
+	margin: 0 0 10px;
+} */
 %padding{
 	padding: 20px;
 }

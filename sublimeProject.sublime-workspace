@@ -136,19 +136,27 @@
 	"buffers":
 	[
 		{
-			"file": "resources/sass/_layout.scss",
+			"file": "resources/js/script.js",
 			"settings":
 			{
-				"buffer_size": 1997,
+				"buffer_size": 1077,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/sass/_grid.scss",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1444,
-				"line_ending": "Unix"
+				"buffer_size": 1859,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 1868,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -280,13 +288,14 @@
 	},
 	"file_history":
 	[
-		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
-		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_layout.scss",
-		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/style.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/css/style.css",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_grid.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/index.html",
+		"/C/Users/jro/Downloads/justnorris-Blankwork-Flexible-SASS-Grid-System-9ca7aec/justnorris-Blankwork-Flexible-SASS-Grid-System-9ca7aec/_blankwork.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/js/script.js",
+		"/C/Users/jro/Downloads/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss",
+		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/style.scss",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/sass/_mediaQueries.scss",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/jro/Documents/GitHub/New_webproject/resources/config.rb",
@@ -406,8 +415,7 @@
 		"/D/Solutions/GDA 1235/gyldendal-akademisk.dk/src/GDA.Web/default.css",
 		"/D/Solutions/RES 948/resound.com/src/GNReSound.Web/css/gridsystem.xlsx",
 		"/C/Users/jro/Desktop/CBS/index.html",
-		"/D/Solutions/AOC/Website/css/all.css",
-		"/D/Solutions/AOC/Website/scripts/modernizr.custom.68157.js"
+		"/D/Solutions/AOC/Website/css/all.css"
 	],
 	"find":
 	{
@@ -415,7 +423,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 120.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -428,6 +436,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"context",
+			"100",
 			"$gutter-width",
 			"corre",
 			"correction",
@@ -553,9 +563,7 @@
 			"tab",
 			"clearContext",
 			"clearcon",
-			"load",
-			"clear",
-			"tabs"
+			"load"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -583,50 +591,78 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/sass/_layout.scss",
+					"file": "resources/js/script.js",
 					"settings":
 					{
-						"buffer_size": 1997,
+						"buffer_size": 1077,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								502,
-								378
+								813,
+								813
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 84.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/sass/_grid.scss",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1444,
+						"buffer_size": 1859,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								365,
-								365
+								914,
+								913
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 393.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/sass/_layout.scss",
+					"settings":
+					{
+						"buffer_size": 1868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1812,
+								1811
 							]
 						],
 						"settings":
@@ -635,7 +671,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2436.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -722,7 +758,7 @@
 		[
 			[
 				"",
-				"/D/Solutions/000AAU/AAU.sublime-project"
+				"/D/Solutions/GDA 1235/gyldendal-akademisk.dk/gda.sublime-project"
 			]
 		],
 		"width": 380.0
