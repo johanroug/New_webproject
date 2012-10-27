@@ -24,14 +24,13 @@
 		$('.cleargrid').remove();
 		var section = $('.section');
 		$(section).each(function() {
-			console.log(section.width());
 		    var rowPixels = 0;
 		    $(this).children('.grid').each(function () {
 
 		        var gridWidth = $(this).width();
 		        rowPixels += gridWidth;
 
-		        if (rowPixels >= $(section).width()) {
+		        if (rowPixels >= $(section).width() - 1) { //I use - 1 because new and old browsers use different dec numbers
 
 		            if($(this).parent().is('ul')){
 						$(this).after('<li class="clear cleargrid"></li>');

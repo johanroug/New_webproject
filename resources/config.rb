@@ -14,7 +14,7 @@ javascripts_dir = "js"
 relative_assets = true
 
 #Change number of decimals on calculations
-Sass::Script::Number.precision = 14
+Sass::Script::Number.precision = 16
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
