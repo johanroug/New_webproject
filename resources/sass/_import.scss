@@ -1,18 +1,22 @@
-// Variables -> Compass
-//------------------------------------- 
+/* Variables -> Compass
+------------------------------------- */
 $legacy-support-for-ie: false;
 $legacy-support-for-ie8: true;
 
-// import compass 
-//------------------------------------- 
+
+/* Import compass 
+------------------------------------- */
 @import "compass/reset";
 @import "compass/css3";
 
 
-// Import stylesheets
-//-------------------------------------
+/* Import stylesheets
+------------------------------------- */
+$my-icons-spacing: 40px;
 @import "my-icons/*.png"; //Sprite
+
 @import "_layout.scss";
+@import "_input.scss";
 @import "_colors.scss";
 @import "_typografi.scss";
 @import "_placeholders.scss";	//Used for grupped classes

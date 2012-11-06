@@ -1,0 +1,57 @@
+/* Inputs
+------------------------------------- */
+// <form>
+// 	<input type="text" id="subscribeText" name="subscribeText" value="">
+// 	<input type="submit" value="Search">
+// </form>
+
+// eller hvis submit og input er smeltet sammen--------------
+
+// <form class="inside">
+// 	<input type="text" id="subscribeText" name="subscribeText" value="">
+// 	<input type="submit" value="Search">
+// </form>
+
+form{
+	position: relative;
+	&.inside{		
+		@include box-shadow(rgba(0,0,0,.5) 1px 0 15px inset);
+		border: 1px solid #000;
+	}
+}
+input{	
+	border: 1px solid #000;
+	height: 31px;		
+	margin: 0;
+	padding: 0;	
+	.inside &{		
+		border: none;
+	}	
+	&[type="text"], &[type="password"], &[type="submit"], &[type="reset"] {
+		@include box-shadow(rgba(0,0,0,.5) 1px 0 15px inset);
+		background: transparent;
+		box-sizing: border-box;
+		color: #fff;
+		font-size: (22em/13);			
+		padding-right: 15px;
+		width: 100%;
+		.inside &{
+			padding-right: 50px;
+			@include box-shadow(none);
+		}
+		.ie7 &, .ie8 &{
+			line-height: 31px;
+		}
+	}	
+	&[type="submit"], &[type="reset"] {
+		background: blue;
+		.inside &{
+			color: transparent;
+			cursor: pointer;	
+			position: absolute;		
+			right: 0;
+			top: 0;
+			width: 40px;
+		}		
+	}	
+}
