@@ -21,8 +21,10 @@
 }
 
 // For test of media queries
-@media screen and (min-width: 973px) { body{ background: orange !important; }}
-@media screen and (max-width: 972px) { body{ background: #000 !important; }}
-@media screen and (max-width: 700px) { body{ background: red !important;    }}
-@media screen and (max-width: 550px) { body{ background: purple !important; }}
+body{
+  @include media(desktop) { background: orange !important; }
+  @include media(tabletH) { background: #000 !important; }
+  @include media(tabletV) { background: red !important;    }
+  @include media(mobile) { background: purple !important; }
+}
 

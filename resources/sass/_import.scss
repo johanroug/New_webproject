@@ -15,8 +15,8 @@ $legacy-support-for-ie8: true;
 $my-icons-spacing: 40px;
 @import "my-icons/*.png"; //Sprite
 
-@import "_layout.scss";
-@import "_input.scss";
-@import "_colors.scss";
-@import "_typografi.scss";
-@import "_placeholders.scss";	//Used for grupped classes
+@import "_layout";
+@import "_input";
+@import "_colors";
+@import "_typografi";
+@import "_placeholders";	//Used for grupped classes

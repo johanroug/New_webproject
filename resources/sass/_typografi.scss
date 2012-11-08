@@ -1,5 +1,3 @@
-@import "compass/css3/font-face";
-
 /* font
 ------------------------------------- */ 
 @include font-face("fontName", font-files("fontName_bd.woff", "fontName_bd.ttf"), "fontName_bd.eot", bold);	
